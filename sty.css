@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.image {
+        background-image: url(https://media.istockphoto.com/id/1378237265/photo/modern-bank-glass-building-shallow-depth-of-field-3d-render.webp?b=1&s=170667a&w=0&k=20&c=qIaOZcxHuvd-0IdwmRBfFJDZwuTQeamTYnKmKzJ_zEo=);
+        background-size: 1052px 112px;
+        height: 113px;
+        /* padding-bottom: 54px; */
+        background-repeat: no-repeat;
+    }
+.container {
+    display:flex;
+    position: relative;
+    width:100%;
+}
+.main{
+    background :linear-gradient(to right ,grey ,#ade5ff);
+    width:100%;
+}
+.hero{
+    height :100%;
+    display:flex;
+    flex-direction: column;
+    background :linear-gradient(to right ,grey ,#ade5ff);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.sidebar {
+    background :linear-gradient(to right,#1064ff,#ade5ff);
+    width: 40vw;
+    height: 98vh;
+}
+
+.sidebar nav {
+    padding: 20px;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.table{
+    padding-top:10vw;
+    padding-left:10vw;
+    width: 70vw;
+    
+}
+.form-box{
+    width: 380px;
+    height: 580px;
+    position: relative;
+    margin: 2% auto;
+    background: #fff;
+    padding : 5px ;
+    box-shadow:0 0 20px 2px rgba(1,10,0,0.5);
+}
+.input-group{
+    top: 60px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin : 10px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin : auto;
+    background: linear-gradient(to right,#1064ff,#ade5ff);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+.span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position:absolute;
+}
+#register{
+    left: 50px;
+}
+.para{
+    padding-left:380px;
+}

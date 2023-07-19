@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-registration form</title>
+    <link rel="stylesheet" href = "register.css">
+</head>
+<body>
+    <div class = "hero">
+    <div class = 'form-box'>
+        <h1  style="text-align:center;padding-top:20px">REGISTRATION</h1>
+        <form id = "register" class="input-group" action="register.php" method="POST">
+            <input type ="text" class="input-field" name="name" placeholder="Account holder name">
+            <input type ="text" class="input-field" name="acc-number" placeholder="Account number">
+            <input type ="text" class="input-field" name="acc-type" placeholder="Account type">
+            <input type ="text" class="input-field" name="bank-name" placeholder="Bank name">
+            <input type ="text" class="input-field" name="branch-name" placeholder="Branch name">
+            <input type ="text" class="input-field" name="occupation" placeholder="Occupation">
+	        <input type ="password" class="input-field" name="password" placeholder="Password">
+	        <input type ="password" class="input-field" name="re-password" placeholder="Retype Password">
+            <input type ="checkbox" class = "ckeck-box"><span> I agree to terms & conditions</span>
+            <input type="submit" class="submit-btn" value="submit" name="submit" id="submit">
+        </form>
+        
+    </div>
+    <p class="para"> 
+		<a href="index.html">Home</a>Already have an account? <a href="login.html">Login here</a>
+	</p>
+    </div>
+    

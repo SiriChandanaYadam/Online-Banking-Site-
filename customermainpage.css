@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display:flex;
+    position: relative;
+}
+.hero{
+    height :100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://securityintelligence.com/wp-content/uploads/2020/06/si-catagory-bankingAndFinance@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.sidebar {
+    background :linear-gradient(to right,#1064ff,#ade5ff);
+    width: 25vw;
+    height: 98vh;
+}
+
+.sidebar nav {
+    padding: 20px;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    width: 100vw;
+}
+
+.info {
+    height: 48vh;
+    margin: 197px ;
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left:0;
+}
+
+.text{
+    font-size: 60px;
+    font-family:Courier, monospace;
+    color:white;
+}
+.buttons{
+    padding:10px 20px;
+}
+    
+.button{
+    font-size:18px;
+    text-decoration:none;
+    color:white;
+    border:white 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+  }
+  
+  .button:hover{
+    background:#926239;
+    color:#fff;
+  }
+

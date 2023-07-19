@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:17px;
+    color:#bdb0a5;
+    line-height:1.6;
+  }
+  
+  #showcase{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://media.istockphoto.com/id/1469996263/photo/wave-of-musical-sounds-abstract-background-with-interweaving-of-dots-and-lines-3d-rendering.webp?b=1&s=170667a&w=0&k=20&c=QJR-4YUgm7jxcaM5pk8y3ishM_EsA9wiUqva50IWRLk=);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+  
+  #showcase h1{
+    font-size:50px;
+    line-height:1.2;
+  }
+  
+  #showcase p{
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+ #showcase .buttons{
+    padding:10px 20px;
+}
+    
+#showcase .button{
+    font-size:18px;
+    text-decoration:none;
+    color:#926239;
+    border:#926239 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+  }
+  
+  #showcase .button:hover{
+    background:#926239;
+    color:#fff;
+  }
+  
+  #section-a{
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:center;
+  }
+  
+  #section-b{
+    padding:20px;
+    background:#f4f4f4;
+    text-align:center;
+    color:black;
+  }
+  
+  #section-c{
+    display:flex;
+  }
+  
+  #section-c div{
+    padding:20px;
+  }
+  
+  #section-c .box-1, #section-c .box-3{
+    background:#926239;
+    color:white;
+  }
+  
+  #section-c .box-2{
+    background:#f9f9f9;
+    color: black;
+  }
+  
